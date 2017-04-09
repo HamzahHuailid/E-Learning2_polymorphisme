@@ -1,0 +1,30 @@
+penjelasan tetang polynorphisme
+
+	polynorphisme atau bisa disebut kebanyak rupaan adalah kemampuan program untuk mengungkap banyak hal yang berbeda,
+tapi dengan menggunakan cara yang sama.
+polynorphisme bisa disamakan dengan method overload/overriding,dimana dalam sebuah class terdapat beberapa method dengan
+nama yang sama.biasa nya hanya berbeda dalam jumlah atau tipe data parameternya,polymorphisme juga ada keterkaitan dengan
+inheritance(turunan).
+	Pada contoh program sederhana polymorphisme yang saya buat,Dalam class ViewData, method tulis() akan bereaksi dengan 
+salah satu dari empat macam cara tergantung dari data yang di passing(nilai aktual parameternya).
+
+public void tulis (int x) {
+	System.out.println(x);
+	}
+	
+	public void tulis(double x) {
+		System.out.println(x);
+		}
+		
+	public void tulis(char x) {
+		System.out.println(x);
+		}
+		
+	public void tulis(String x) {
+		System.out.println(x);
+		}
+		
+		pada coding di atas kita lihat nama method nya sama yaitu "tulis" tapi nilai parameternya berbeda.keaneka ragaman
+	model aksi ini disebut polymorphisme atau banyak bentuk. pemberian objek dari subclass ke objek dari superclass dapat 
+	dilakukan tanpa perlu melakukan konversi.
+		Sekian  penjelasan dari polymorphisme yang dapat saya pahami, Terima kasih.
